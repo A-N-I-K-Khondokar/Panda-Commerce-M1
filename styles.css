@@ -4,39 +4,47 @@
 
 /* font class */
 .poppins {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 
 /* common styles */
-body{
+body {
     max-width: 1280px;
     margin: 0 auto;
 }
 
+.btn-primary {
+    background: linear-gradient(to left, #FF589B, #FF136F);
+}
+
 /* nav */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
-nav .links ul{
+
+nav .links ul {
     display: flex;
     gap: 24px;
     color: rgba(112, 112, 112, 1);
 
 }
-nav ul{
+
+nav ul {
     list-style: none;
 }
-nav ul a{
+
+nav ul a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.input input[type="text"]{
+
+.input input[type="text"] {
     width: 508.94px;
-    height: 48px; 
+    height: 48px;
     padding: 12px;
     box-sizing: border-box;
     border-radius: 66px;
@@ -44,14 +52,64 @@ nav ul a{
     border: none;
     color: rgba(186, 186, 186, 1);
 }
-    
 
-.input{
+
+.input {
     position: relative;
 }
-.input i{
+
+.input i {
     position: absolute;
     top: 17px;
-    right:20px;
+    right: 20px;
     color: rgba(186, 186, 186, 1);
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+    padding: 38px 63px 37px 46px;
+    background-color: rgba(254, 234, 233, 1);
+    border: none;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.banner-description{
+    font-size: 16px;
+        max-width: 456px;
+        margin-bottom: 20px;
+
+}
+
+.banner img {
+    width: 402px;
+    height: 378px;
+}
+
+.banner-title {
+    color: rgba(31, 31, 31, 1);
+    font-style: Bold;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.banner-amount {
+    color: rgba(255, 19, 111, 1);
+    font-size: 41px;
+    font-weight: 500;
+}
+
+.banner-btn button {
+    background: linear-gradient(#FF589B, #FF136F);
+    color: white;
+    padding: 14px 20px 14px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 168px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 500;
 }
