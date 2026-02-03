@@ -7,3 +7,51 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
+/* common styles */
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+nav .links ul{
+    display: flex;
+    gap: 24px;
+    color: rgba(112, 112, 112, 1);
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color:black;
+}
+.input input[type="text"]{
+    width: 508.94px;
+    height: 48px; 
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 66px;
+    background: rgba(241, 241, 241, 1);
+    border: none;
+    color: rgba(186, 186, 186, 1);
+}
+    
+
+.input{
+    position: relative;
+}
+.input i{
+    position: absolute;
+    top: 17px;
+    right:20px;
+    color: rgba(186, 186, 186, 1);
+}
