@@ -77,10 +77,11 @@ nav ul a {
     border-radius: 20px;
     margin-top: 60px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 16px;
-        max-width: 456px;
-        margin-bottom: 20px;
+    max-width: 456px;
+    margin-bottom: 20px;
 
 }
 
@@ -112,4 +113,122 @@ nav ul a {
     height: 52px;
     font-size: 16px;
     font-weight: 500;
+}
+
+/* product */
+.product {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.categories-title {
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.categorie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 77px;
+    width: 359px;
+    height: 120px;
+    background: linear-gradient(151.85deg, rgba(255, 156, 53, 1) 1.473%, rgba(255, 208, 25, 1) 97.175%);
+    border: none;
+    border-radius: 10px;
+}
+
+.categorie p {
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 40px;
+}
+
+.categorie img {
+    width: 68.21px;
+    height: 90px;
+    padding-right: 40px;
+}
+
+/* shoes */
+.shoes-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.shoes-title p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 157, 0, 1);
+}
+
+#shoes-title-left {
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+}
+
+.shoes {
+    display: flex;
+}
+
+.shoe {
+    text-align: center;
+    padding: 24px;
+}
+
+.shoes-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(31, 31, 31, 1);
+}
+
+.shoes-price {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(31, 31, 31, 1);
+}
+
+.shoes-description {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shoe img {
+    width: 336px;
+    height: 202px;
+}
+
+.btn-buynow button {
+    padding: 14px 20px 14px 20px;
+    width: 168px;
+    height: 52px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* backpack */
+.backpack {
+    display: flex;
+}
+
+.backpack img {
+    width: 290px;
+    height: 290px;
 }
