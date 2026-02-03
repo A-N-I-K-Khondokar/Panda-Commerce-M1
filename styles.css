@@ -232,3 +232,55 @@ nav ul a {
     width: 290px;
     height: 290px;
 }
+
+/* contacts */
+.contacts {
+    background-color: rgba(254, 234, 233, 1);
+    text-align: center;
+    padding: 140px 260px;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 24px;
+    margin-bottom: 100px;
+
+}
+
+.contact-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-description {
+    color: rgba(112, 112, 112, 1);
+    font-size: 16px;
+}
+
+.contact-foot input {
+    width: 683px;
+    height: 73px;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(204, 204, 204, 1);
+    padding-left: 35px;
+    border: none;
+}
+
+.btn-contact button {
+    width: 157px;
+    height: 75px;
+    background: linear-gradient(#FF589B, #FF136F);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
